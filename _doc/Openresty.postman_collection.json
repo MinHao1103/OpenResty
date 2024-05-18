@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "ee3c85db-4784-4f80-8bba-98acc834ff75",
+		"name": "Openresty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26469706"
+	},
+	"item": [
+		{
+			"name": "addRoute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/addRoute?server=/TestService/&path=127.0.0.1:8090",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"addRoute"
+					],
+					"query": [
+						{
+							"key": "server",
+							"value": "/TestService/"
+						},
+						{
+							"key": "path",
+							"value": "127.0.0.1:8090"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listRoute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8089/listRoute",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8089",
+					"path": [
+						"listRoute"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delRoute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8089/delRoute?server=/TestService/&path=127.0.0.1:8090",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8089",
+					"path": [
+						"delRoute"
+					],
+					"query": [
+						{
+							"key": "server",
+							"value": "/TestService/"
+						},
+						{
+							"key": "path",
+							"value": "127.0.0.1:8090"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
