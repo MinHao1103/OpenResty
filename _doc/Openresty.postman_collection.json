@@ -88,6 +88,29 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "TestService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8088/TestService/123",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8088",
+					"path": [
+						"TestService",
+						"123"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
